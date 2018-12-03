@@ -24,7 +24,8 @@ public class DisplayActivity extends AppCompatActivity {
          showtext1 = findViewById(R.id.textView4);
         showtext2= findViewById(R.id.textView5);
        showtext1.setText(message);
-       showtext2.setText("" + number);
+       
+       showtext2.setText(""+ number);
 
     }
 }
