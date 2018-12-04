@@ -5,9 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
-
-import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 public class MainActivity extends AppCompatActivity {
     public static final String EXTRA_MESSAGE = "com.example.task4_1.Message";
@@ -20,9 +17,9 @@ public class MainActivity extends AppCompatActivity {
     public void sendMessage(View vew){
 
         EditText editText =(EditText) findViewById(R.id.editText);
+        EditText editText1=(EditText) findViewById(R.id.editText2);
         String  message = editText.getText().toString();
-        EditText editText2 = (EditText) findViewById(R.id.editText2);
-        int number = Integer.parseInt(editText2.getText().toString());
+        int number = Integer.parseInt(editText1.getText().toString());
         Intent intent =new Intent(this, DisplayActivity.class);
         intent.putExtra(EXTRA_MESSAGE, message);
         intent.putExtra(EXTRA_NUMBER,number);

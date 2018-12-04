@@ -15,8 +15,22 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.test1.com"
+                    android:pathPattern="/test1"
+                    android:scheme="http" />
+            </intent-filter>
         </activity>
-        <activity android:name=".DisplayActivity"></activity>
+        <activity android:name=".DisplayActivity" />
+        <activity android:name=".Africanactivity" />
+        <activity android:name=".Asianactivity" />
+        <activity android:name=".Europianactivity"></activity>
     </application>
 
 </manifest>
