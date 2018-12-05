@@ -4,19 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Europianactivity">
+    tools:context=".Northamericaactivity">
 
     <TextView
-        android:id="@+id/textView13"
-        android:layout_width="133dp"
-        android:layout_height="76dp"
+        android:id="@+id/textView14"
+        android:layout_width="108dp"
+        android:layout_height="64dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="This is europe"
+        android:text="This is north america"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

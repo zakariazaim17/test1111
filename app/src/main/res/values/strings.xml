@@ -5,7 +5,7 @@
     <string name="text3">Type your Phonenumber</string>
     <string name="yext4"></string>
     <string name="button">continue</string>
-    <string name="text1.1">User Info</string>
+    <string name="tet11">User Info</string>
     <string name="test2">Restaurants</string>
     <string name="test3">Step2           Step3             Step4          Step5</string>
     <string name="tedt1">African Restaurant</string>
@@ -15,4 +15,9 @@
     <string name="vfjvbjh">South American Restaurant</string>
     <string name="step2_step3_step4_step5">Step2 Step3 Step4 Step5</string>
     <string name="textview">TextView</string>
+    <string name="ghy"> 5 Table available</string>
+    <string name="qwe"> 14 Seats available</string>
+    <string name="qwer">Filter by Seats</string>
+    <string name="asdf">Filter by Tables</string>
+    <string name="editt">0</string>
 </resources>

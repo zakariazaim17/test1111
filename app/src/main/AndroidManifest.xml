@@ -28,9 +28,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".DisplayActivity" />
-        <activity android:name=".Africanactivity" />
         <activity android:name=".Asianactivity" />
-        <activity android:name=".Europianactivity"></activity>
+        <activity android:name=".Europianactivity" />
+        <activity android:name=".Northamericaactivity" />
+        <activity android:name=".Southamericaacivity" />
+        <activity android:name=".Africanactivity" />
+        <activity android:name=".MealAfrica"></activity>
     </application>
 
 </manifest>
