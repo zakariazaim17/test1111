@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         int number = Integer.parseInt(editText1.getText().toString());
         Intent intent =new Intent(this, DisplayActivity.class);
         intent.putExtra(EXTRA_MESSAGE, message);
-        intent.putExtra(EXTRA_NUMBER,number);
+        intent.putExtra(EXTRA_NUMBER,number );
         startActivity(intent);
 
 
