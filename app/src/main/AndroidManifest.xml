@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test1111">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/dining"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/dining"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.test1.com"
+                    android:pathPattern="/test1"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DisplayActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Asianactivity" />
+        <activity android:name=".Europianactivity" />
+        <activity android:name=".Northamericaactivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Southamericaacivity" />
+        <activity android:name=".BookTableActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".MealAfrica"></activity>
+        <activity android:name=".CheckoutActivity" />
+        <activity android:name=".AfricanActivity" />
+        <activity android:name=".ThanksActivity"
+            android:screenOrientation="portrait"
+            />
+    </application>
+
+</manifest>

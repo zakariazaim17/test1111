@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Dining App</string>
+    <string name="text1">Book beforehand \n and Save Time</string>
+    <string name="text2">Type your Name</string>
+    <string name="text3">Type your Phonenumber</string>
+    <string name="yext4"></string>
+    <string name="button">continue</string>
+    <string name="tet11">User Info</string>
+    <string name="test2">Restaurants</string>
+    <string name="test3">Step2           Step3             Step4          Step5</string>
+    <string name="tedt1">African Restaurant</string>
+    <string name="tedt2">Asian Restaurant</string>
+    <string name="asssdff">Europian Restaurant</string>
+    <string name="dede">North American Restaurant</string>
+    <string name="vfjvbjh">South American Restaurant</string>
+    <string name="step2_step3_step4_step5">Step2 Step3 Step4 Step5</string>
+    <string name="textview">TextView</string>
+    <string name="ghy"> 5 Table available</string>
+    <string name="qwe"> 14 Seats available</string>
+    <string name="qwer">Filter by Seats</string>
+    <string name="asdf">Filter by Tables</string>
+    <string name="editt">1</string>
+    <string name="apply">Apply</string>
+    <string name="to_basket">to cart</string>
+    <string name="add">Add</string>
+    <string name="thanks_you_for_n_your_reservation">Thanks you for your reservation</string>
+    <string name="restaurants">Restaurants:</string>
+    <string name="seats">Seats:</string>
+    <string name="name">Name:</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="total_price">Total Price:</string>
+    <string name="lastorder">Last Order :</string>
+    <string-array name="seats_book">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+
+    <string-array name="table_book">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>
