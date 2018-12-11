@@ -134,12 +134,12 @@
                     android:id="@+id/editText4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:text="1"
-                    android:background="@null"
-                    android:inputType="number"
-                    android:gravity="center"
                     android:layout_gravity="center"
+                    android:background="@null"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:text="@string/editt"
                     android:textColor="@color/colorWhite" />
             </LinearLayout>
         </LinearLayout>

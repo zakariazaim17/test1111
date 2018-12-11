@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Dining App</string>
+    <string name="app_name">Table Check</string>
     <string name="text1">Book beforehand \n and Save Time</string>
     <string name="text2">Type your Name</string>
     <string name="text3">Type your Phonenumber</string>
@@ -19,11 +19,11 @@
     <string name="qwe"> 14 Seats available</string>
     <string name="qwer">Filter by Seats</string>
     <string name="asdf">Filter by Tables</string>
-    <string name="editt">1</string>
+    <string name="editt">0</string>
     <string name="apply">Apply</string>
     <string name="to_basket">to cart</string>
     <string name="add">Add</string>
-    <string name="thanks_you_for_n_your_reservation">Thanks you for your reservation</string>
+    <string name="thanks_you_for_n_your_reservation">Thanks for your reservation</string>
     <string name="restaurants">Restaurants:</string>
     <string name="seats">Seats:</string>
     <string name="name">Name:</string>

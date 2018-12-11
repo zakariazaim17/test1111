@@ -3,6 +3,7 @@ package com.example.test1111;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -81,6 +82,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         customerName = customerNameEd.getText().toString();
         customerMobile = customerMobileEd.getText().toString();
 
+        boolean digitsOnly = TextUtils.isDigitsOnly(customerNameEd.getText());
+
 
         insertDatainDB();
         //
@@ -91,6 +94,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Toast.makeText(this, "Please Input Your Name", Toast.LENGTH_SHORT).show();
         else if (customerMobile.isEmpty())
             Toast.makeText(this, "Please Input Your Mobile Number", Toast.LENGTH_SHORT).show();
+
+        else if(digitsOnly==true){
+            customerNameEd.setError("Please enter Your name");
+        }else if(customerMobile.length()>10){
+            customerMobileEd.setError("Please enter Your Phone Number");
+        }
+
         else
             sendMessage();
     }

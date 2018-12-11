@@ -19,6 +19,8 @@ public class ThanksActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_thanks);
 
+        getSupportActionBar().setTitle("Table Check");
+
 
         initializeViews();
     }

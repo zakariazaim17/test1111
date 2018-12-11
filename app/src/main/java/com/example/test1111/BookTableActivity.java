@@ -50,12 +50,16 @@ public class BookTableActivity extends AppCompatActivity {
         DAPreferences.putString(this, Constants.SeatsBook, editTextSeats.getText().toString());
 
 
-        if (seats_book==0||table_book==0)
+        if (seats_book==0 && table_book==0)
             showAlertDialog();
-        else if (seats_book <= 14 && table_book <= 5) {
+         else if(seats_book>14 && table_book>5) {
+            showAlertDialog();
+        }
+        else if(table_book>5 || seats_book>14 ) {
+            showAlertDialog();
+        }else {
+
             checkForWhichRestaurant();
-        } else {
-            showAlertDialog();
         }
     }
 
